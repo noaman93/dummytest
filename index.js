@@ -13,7 +13,7 @@ app.get("/contact", (req, res) => {
 });
 
 app.get("/products", (req, res) => {
-  res.send("Products page", { products });
+  res.send("Products page");
 });
 
 app.listen(8080, () => {
